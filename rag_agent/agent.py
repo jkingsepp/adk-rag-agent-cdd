@@ -43,6 +43,7 @@ root_agent = Agent(
     ## How to Approach User Requests
     
     When a user asks a question:
+    (jk this is classification)
     1. First, determine if they want to manage corpora (list/create/add data/get info/delete) or query existing information.
     2. If they're asking a knowledge question, use the `rag_query` tool to search the corpus.
     3. If they're asking about available corpora, use the `list_corpora` tool.
